@@ -32,6 +32,8 @@ namespace WordCards
             Word.Phonogram = txtPhonogram.Text;
             Word.SoundPath = txtSoundPath.Text;
             Word.Explain = txtExplain.Text;
+
+            this.Close();
         }
     }
 }
